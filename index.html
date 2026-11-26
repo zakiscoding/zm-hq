@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZM HQ</title>
+  <meta name="description" content="ZM HQ is an online retail business that researches, sources, and resells consumer products.">
+  <style>
+    :root {
+      --bg: #f7f7f5;
+      --card: #ffffff;
+      --text: #1c1c1c;
+      --muted: #5a5a5a;
+      --accent: #1f4e79;
+      --border: #e2e2de;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #141414;
+        --card: #1d1d1d;
+        --text: #ededed;
+        --muted: #a8a8a8;
+        --accent: #8ab8e6;
+        --border: #2e2e2e;
+      }
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    main {
+      flex: 1;
+      width: 100%;
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 64px 16px 32px;
+    }
+    h1 {
+      font-size: clamp(2.25rem, 8vw, 3rem);
+      letter-spacing: -0.02em;
+      margin: 0 0 16px;
+    }
+    .lead {
+      font-size: 1.15rem;
+      color: var(--muted);
+      margin: 0 0 40px;
+    }
+    section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 20px 24px;
+    }
+    h2 {
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin: 0 0 8px;
+    }
+    section p { margin: 0; }
+    a { color: var(--accent); word-break: break-word; }
+    footer {
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--muted);
+      padding: 24px 16px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>ZM HQ</h1>
+    <p class="lead">ZM HQ is an online retail business that researches, sources, and resells consumer products.</p>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:zakarbitage@gmail.com">zakarbitage@gmail.com</a></p>
+    </section>
+  </main>
+  <footer>&copy; 2026 ZM HQ</footer>
+</body>
+</html>
